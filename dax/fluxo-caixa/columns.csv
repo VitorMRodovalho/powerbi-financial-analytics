@@ -1,0 +1,65 @@
+TableName,ColumnName,Expression
+DateTableTemplate_fc8e61d3-66a0-46ce-bb27-9231096d58cf,Ano,YEAR([Date])
+DateTableTemplate_fc8e61d3-66a0-46ce-bb27-9231096d58cf,MonthNo,MONTH([Date])
+DateTableTemplate_fc8e61d3-66a0-46ce-bb27-9231096d58cf,Mês,"FORMAT([Date], ""MMMM"")"
+DateTableTemplate_fc8e61d3-66a0-46ce-bb27-9231096d58cf,QuarterNo,INT(([MonthNo] + 2) / 3)
+DateTableTemplate_fc8e61d3-66a0-46ce-bb27-9231096d58cf,Trimestre,"""Trim "" & [QuarterNo]"
+DateTableTemplate_fc8e61d3-66a0-46ce-bb27-9231096d58cf,Dia,DAY([Date])
+LocalDateTable_268fb42e-6c17-4eeb-a6d4-f1317292a729,Ano,YEAR([Date])
+LocalDateTable_268fb42e-6c17-4eeb-a6d4-f1317292a729,MonthNo,MONTH([Date])
+LocalDateTable_268fb42e-6c17-4eeb-a6d4-f1317292a729,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_268fb42e-6c17-4eeb-a6d4-f1317292a729,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_268fb42e-6c17-4eeb-a6d4-f1317292a729,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_268fb42e-6c17-4eeb-a6d4-f1317292a729,Dia,DAY([Date])
+LocalDateTable_40d7a0c4-37d4-4635-ab0d-a716840068f9,Ano,YEAR([Date])
+LocalDateTable_40d7a0c4-37d4-4635-ab0d-a716840068f9,MonthNo,MONTH([Date])
+LocalDateTable_40d7a0c4-37d4-4635-ab0d-a716840068f9,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_40d7a0c4-37d4-4635-ab0d-a716840068f9,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_40d7a0c4-37d4-4635-ab0d-a716840068f9,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_40d7a0c4-37d4-4635-ab0d-a716840068f9,Dia,DAY([Date])
+LocalDateTable_16afc027-9966-4575-a4b0-028555a6b4d2,Ano,YEAR([Date])
+LocalDateTable_16afc027-9966-4575-a4b0-028555a6b4d2,MonthNo,MONTH([Date])
+LocalDateTable_16afc027-9966-4575-a4b0-028555a6b4d2,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_16afc027-9966-4575-a4b0-028555a6b4d2,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_16afc027-9966-4575-a4b0-028555a6b4d2,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_16afc027-9966-4575-a4b0-028555a6b4d2,Dia,DAY([Date])
+LocalDateTable_507f675c-5f30-4be8-b4e5-cbdcb2b4c6ff,Ano,YEAR([Date])
+LocalDateTable_507f675c-5f30-4be8-b4e5-cbdcb2b4c6ff,MonthNo,MONTH([Date])
+LocalDateTable_507f675c-5f30-4be8-b4e5-cbdcb2b4c6ff,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_507f675c-5f30-4be8-b4e5-cbdcb2b4c6ff,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_507f675c-5f30-4be8-b4e5-cbdcb2b4c6ff,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_507f675c-5f30-4be8-b4e5-cbdcb2b4c6ff,Dia,DAY([Date])
+FTO_CONTAS_A_PAGAR,Grupo,"""Saídas"""
+FTO_CONTAS_A_PAGAR,Tipo,"""Contas a Pagar"""
+LocalDateTable_ec7bb2a9-889d-4017-a206-619033d37866,Ano,YEAR([Date])
+LocalDateTable_ec7bb2a9-889d-4017-a206-619033d37866,MonthNo,MONTH([Date])
+LocalDateTable_ec7bb2a9-889d-4017-a206-619033d37866,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_ec7bb2a9-889d-4017-a206-619033d37866,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_ec7bb2a9-889d-4017-a206-619033d37866,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_ec7bb2a9-889d-4017-a206-619033d37866,Dia,DAY([Date])
+LocalDateTable_03d41b65-02d1-4611-b939-637f376cc77f,Ano,YEAR([Date])
+LocalDateTable_03d41b65-02d1-4611-b939-637f376cc77f,MonthNo,MONTH([Date])
+LocalDateTable_03d41b65-02d1-4611-b939-637f376cc77f,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_03d41b65-02d1-4611-b939-637f376cc77f,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_03d41b65-02d1-4611-b939-637f376cc77f,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_03d41b65-02d1-4611-b939-637f376cc77f,Dia,DAY([Date])
+LocalDateTable_be487a68-b4aa-4455-a035-afc9a009fb51,Ano,YEAR([Date])
+LocalDateTable_be487a68-b4aa-4455-a035-afc9a009fb51,MonthNo,MONTH([Date])
+LocalDateTable_be487a68-b4aa-4455-a035-afc9a009fb51,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_be487a68-b4aa-4455-a035-afc9a009fb51,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_be487a68-b4aa-4455-a035-afc9a009fb51,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_be487a68-b4aa-4455-a035-afc9a009fb51,Dia,DAY([Date])
+LocalDateTable_9cf4f4e8-95fe-4294-a22d-23cb40852d2a,Ano,YEAR([Date])
+LocalDateTable_9cf4f4e8-95fe-4294-a22d-23cb40852d2a,MonthNo,MONTH([Date])
+LocalDateTable_9cf4f4e8-95fe-4294-a22d-23cb40852d2a,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_9cf4f4e8-95fe-4294-a22d-23cb40852d2a,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_9cf4f4e8-95fe-4294-a22d-23cb40852d2a,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_9cf4f4e8-95fe-4294-a22d-23cb40852d2a,Dia,DAY([Date])
+LocalDateTable_ecb3f1cb-e664-4471-b4ed-231999bba45f,Ano,YEAR([Date])
+LocalDateTable_ecb3f1cb-e664-4471-b4ed-231999bba45f,MonthNo,MONTH([Date])
+LocalDateTable_ecb3f1cb-e664-4471-b4ed-231999bba45f,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_ecb3f1cb-e664-4471-b4ed-231999bba45f,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_ecb3f1cb-e664-4471-b4ed-231999bba45f,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_ecb3f1cb-e664-4471-b4ed-231999bba45f,Dia,DAY([Date])
+PLANO_CONTAS,Path,"PATH(PLANO_CONTAS[Item_Pai],PLANO_CONTAS[Item_Filho])"
+PlanoContasPMC,Path,"PATH('PlanoContasPMC'[Item_Pai1],'PlanoContasPMC'[Item_Filho1])"

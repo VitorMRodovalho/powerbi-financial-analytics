@@ -1,0 +1,31 @@
+TableName,ColumnName,Expression
+DateTableTemplate_3a8ee776-0090-4846-9d94-7afc54d5f377,Ano,YEAR([Date])
+DateTableTemplate_3a8ee776-0090-4846-9d94-7afc54d5f377,MonthNo,MONTH([Date])
+DateTableTemplate_3a8ee776-0090-4846-9d94-7afc54d5f377,Mês,"FORMAT([Date], ""MMMM"")"
+DateTableTemplate_3a8ee776-0090-4846-9d94-7afc54d5f377,QuarterNo,INT(([MonthNo] + 2) / 3)
+DateTableTemplate_3a8ee776-0090-4846-9d94-7afc54d5f377,Trimestre,"""Trim "" & [QuarterNo]"
+DateTableTemplate_3a8ee776-0090-4846-9d94-7afc54d5f377,Dia,DAY([Date])
+LocalDateTable_50fc68a4-7824-41a0-bac7-bd3d66904377,Ano,YEAR([Date])
+LocalDateTable_50fc68a4-7824-41a0-bac7-bd3d66904377,MonthNo,MONTH([Date])
+LocalDateTable_50fc68a4-7824-41a0-bac7-bd3d66904377,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_50fc68a4-7824-41a0-bac7-bd3d66904377,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_50fc68a4-7824-41a0-bac7-bd3d66904377,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_50fc68a4-7824-41a0-bac7-bd3d66904377,Dia,DAY([Date])
+LocalDateTable_704e7994-8fa7-4ea5-a422-85c68b79a3c8,Ano,YEAR([Date])
+LocalDateTable_704e7994-8fa7-4ea5-a422-85c68b79a3c8,MonthNo,MONTH([Date])
+LocalDateTable_704e7994-8fa7-4ea5-a422-85c68b79a3c8,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_704e7994-8fa7-4ea5-a422-85c68b79a3c8,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_704e7994-8fa7-4ea5-a422-85c68b79a3c8,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_704e7994-8fa7-4ea5-a422-85c68b79a3c8,Dia,DAY([Date])
+LocalDateTable_27d0c900-b8d8-4472-9d83-fef9bd2b9245,Ano,YEAR([Date])
+LocalDateTable_27d0c900-b8d8-4472-9d83-fef9bd2b9245,MonthNo,MONTH([Date])
+LocalDateTable_27d0c900-b8d8-4472-9d83-fef9bd2b9245,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_27d0c900-b8d8-4472-9d83-fef9bd2b9245,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_27d0c900-b8d8-4472-9d83-fef9bd2b9245,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_27d0c900-b8d8-4472-9d83-fef9bd2b9245,Dia,DAY([Date])
+LocalDateTable_a3652855-db8e-4dea-b7c8-04231c0e9671,Ano,YEAR([Date])
+LocalDateTable_a3652855-db8e-4dea-b7c8-04231c0e9671,MonthNo,MONTH([Date])
+LocalDateTable_a3652855-db8e-4dea-b7c8-04231c0e9671,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_a3652855-db8e-4dea-b7c8-04231c0e9671,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_a3652855-db8e-4dea-b7c8-04231c0e9671,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_a3652855-db8e-4dea-b7c8-04231c0e9671,Dia,DAY([Date])

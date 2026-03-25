@@ -1,0 +1,63 @@
+TableName,ColumnName,PandasDataType
+BD_PM Canvas,Projeto,string
+BD_PM Canvas,Justificativa,string
+BD_PM Canvas,Obj. Smart,string
+BD_PM Canvas,Benefícios,string
+BD_PM Canvas,Requisitos,string
+BD_PM Canvas,Stakeholders Externos,string
+BD_PM Canvas,Equipe,string
+BD_PM Canvas,Premissas,string
+BD_PM Canvas,Grupo de Entrega,string
+BD_PM Canvas,Restrições,string
+BD_PM Canvas,Riscos,string
+BD_PM Canvas,Linha do Tempo,string
+BD_PM Canvas,Custo,string
+DateTableTemplate_3a8ee776-0090-4846-9d94-7afc54d5f377,Ano,object
+DateTableTemplate_3a8ee776-0090-4846-9d94-7afc54d5f377,MonthNo,object
+DateTableTemplate_3a8ee776-0090-4846-9d94-7afc54d5f377,Mês,object
+DateTableTemplate_3a8ee776-0090-4846-9d94-7afc54d5f377,QuarterNo,object
+DateTableTemplate_3a8ee776-0090-4846-9d94-7afc54d5f377,Trimestre,object
+DateTableTemplate_3a8ee776-0090-4846-9d94-7afc54d5f377,Dia,object
+LocalDateTable_27d0c900-b8d8-4472-9d83-fef9bd2b9245,Ano,object
+LocalDateTable_27d0c900-b8d8-4472-9d83-fef9bd2b9245,MonthNo,object
+LocalDateTable_27d0c900-b8d8-4472-9d83-fef9bd2b9245,Mês,object
+LocalDateTable_27d0c900-b8d8-4472-9d83-fef9bd2b9245,QuarterNo,object
+LocalDateTable_27d0c900-b8d8-4472-9d83-fef9bd2b9245,Trimestre,object
+LocalDateTable_27d0c900-b8d8-4472-9d83-fef9bd2b9245,Dia,object
+LocalDateTable_50fc68a4-7824-41a0-bac7-bd3d66904377,Ano,object
+LocalDateTable_50fc68a4-7824-41a0-bac7-bd3d66904377,MonthNo,object
+LocalDateTable_50fc68a4-7824-41a0-bac7-bd3d66904377,Mês,object
+LocalDateTable_50fc68a4-7824-41a0-bac7-bd3d66904377,QuarterNo,object
+LocalDateTable_50fc68a4-7824-41a0-bac7-bd3d66904377,Trimestre,object
+LocalDateTable_50fc68a4-7824-41a0-bac7-bd3d66904377,Dia,object
+LocalDateTable_704e7994-8fa7-4ea5-a422-85c68b79a3c8,Ano,object
+LocalDateTable_704e7994-8fa7-4ea5-a422-85c68b79a3c8,MonthNo,object
+LocalDateTable_704e7994-8fa7-4ea5-a422-85c68b79a3c8,Mês,object
+LocalDateTable_704e7994-8fa7-4ea5-a422-85c68b79a3c8,QuarterNo,object
+LocalDateTable_704e7994-8fa7-4ea5-a422-85c68b79a3c8,Trimestre,object
+LocalDateTable_704e7994-8fa7-4ea5-a422-85c68b79a3c8,Dia,object
+LocalDateTable_a3652855-db8e-4dea-b7c8-04231c0e9671,Ano,object
+LocalDateTable_a3652855-db8e-4dea-b7c8-04231c0e9671,MonthNo,object
+LocalDateTable_a3652855-db8e-4dea-b7c8-04231c0e9671,Mês,object
+LocalDateTable_a3652855-db8e-4dea-b7c8-04231c0e9671,QuarterNo,object
+LocalDateTable_a3652855-db8e-4dea-b7c8-04231c0e9671,Trimestre,object
+LocalDateTable_a3652855-db8e-4dea-b7c8-04231c0e9671,Dia,object
+Medidas,Medidas,string
+dColaboradores,Nome,string
+dColaboradores,Link,string
+dColaboradores,Responsável,string
+fTarefas,Mês,datetime64[ns]
+fTarefas,Tarefa,string
+fTarefas,Empreendimento,string
+fTarefas,Referência,string
+fTarefas,Projeto Específico?,string
+fTarefas,Responsável,string
+fTarefas,Envolvido,string
+fTarefas,Data início,datetime64[ns]
+fTarefas,Data Conclusão Prevista,datetime64[ns]
+fTarefas,Prazo Previsto,Int64
+fTarefas,Data Conclusão Real,datetime64[ns]
+fTarefas,Prazo Real,Int64
+fTarefas,Status,string
+fTarefas,Observação,string
+fTarefas,No Prazo,string

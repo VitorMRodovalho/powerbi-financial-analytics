@@ -1,0 +1,43 @@
+FromTableName,FromColumnName,ToTableName,ToColumnName,IsActive,Cardinality,CrossFilteringBehavior,FromKeyCount,ToKeyCount,RelyOnReferentialIntegrity
+FTO_SAIDA,DATADOC,,,1,M:1,Single,134,,0
+FTO_SAIDA,ItemPL_des,FTO_INSUMO GERAL,Cod_ins,1,M:1,Single,34,,0
+FTO_SALDOBANCARIO,Empresa_sdcc,DIM_EMPRESA,Codigo_emp,1,M:1,Single,4,,0
+FTO_TRANSFERENCIA,Empresa,DIM_EMPRESA,Codigo_emp,0,M:1,Single,4,,0
+FTO_CONTAS_A_PAGAR,ID_Comp,DIM_EAP,ID_Comp,1,M:1,Single,27,,0
+FTO_SAIDA,DataVencParc_Des,,,1,M:1,Single,211,,0
+FTO_ENTRADA,Classificação,DIM_EAP,ID_Comp,1,M:1,Single,6,,0
+FTO_SALDOBANCARIO,Personalizar,DIM_EAP,ID_Comp,1,M:1,Single,4,,0
+DIM_Bancos,DT_Reg_Ini,,,1,M:1,Single,523,,0
+DIM_Bancos,DT_Reg_Fim,,,1,M:1,Single,4,,0
+FTO_SALDOBANCARIO,EmpBcoConta,DIM_Bancos,SK_Banco2,1,M:1,Both,8,,0
+FTO_ENTRADA,SK_Banco,DIM_Bancos,SK_Banco2,1,M:1,Single,8,,0
+FTO_CONTAS_A_PAGAR,CompPl_Des,DIM_CATEGCOMPOSICAO,Cod_comp,1,M:1,Single,27,,0
+FTO_SAIDA,Tipo,G_GRUPOS,Tipo,1,M:1,Single,4,,0
+FTO_ENTRADA,Tipo,G_GRUPOS,Tipo,1,M:1,Single,4,,0
+FTO_TRANSFERENCIA,Tipo,G_GRUPOS,Tipo,1,M:1,Single,5,,0
+FTO_CONTAS_A_PAGAR,Tipo,G_GRUPOS,Tipo,1,M:1,Single,4,,0
+FTO_TRANSFERENCIA,id,DIM_Bancos,SK_Banco2,1,M:1,Single,8,,0
+FTO_TRANSFERENCIA,GRUPO,DIM_EAP,ID_Comp,1,M:1,Single,5,,0
+DIM_Bancos_2,DT_Reg_Ini,,,1,M:1,Single,523,,0
+DIM_Bancos_2,DT_Reg_Fim,,,1,M:1,Single,4,,0
+FTO_ENTRADA,SK_Banco,DIM_Bancos_2,SK_Banco2,1,M:1,Single,8,,0
+FTO_SALDOBANCARIO,EmpBcoConta,DIM_Bancos_2,SK_Banco2,1,M:1,Single,8,,0
+DIM_Bancos_2,ID_Emp,DIM_EMPRESA,Desc_emp,0,M:1,Single,197,,0
+FTO_TRANSFERENCIA,EmpBcoConta,DIM_Bancos_2,SK_Banco2,1,M:1,Single,10,,0
+FTO_ENTRADA,Cliente,DIM_PESSOAS,cod_pes,1,M:1,Single,4,,0
+FTO_SAIDA,CodForn_Des,DIM_PESSOAS,cod_pes,1,M:1,Single,243,,0
+FTO_ENTRADA,Classificação,FTO_INSUMO GERAL,Cod_ins,1,M:1,Single,6,,0
+FTO_ENTRADA,Classificação,DIM_CATEGCOMPOSICAO,Cod_comp,1,M:1,Single,6,,0
+Date,,,,1,M:1,Single,13152,,0
+FTO_ENTRADA,Data Deposito,,,1,M:1,Single,56,,0
+FTO_PLANEJAMENTO,PlMes_fsg,,,0,M:1,Single,3,,0
+FTO_SALDOBANCARIO,Data_sdcc,,,1,M:1,Single,142,,0
+FTO_TRANSFERENCIA,Data,,,1,M:1,Single,82,,0
+FTO_SAIDA,DtPgto_des,,,1,M:1,Single,134,,0
+FTO_CONTAS_A_PAGAR,DtPgto_Des,,,1,M:1,Single,99,,0
+DIM_OBRAS,DT_Reg_Ini,,,1,M:1,Single,788,,0
+DIM_OBRAS,DT_Reg_Fim,,,1,M:1,Single,4,,0
+DIM_OBRAS,ID_Emp,DIM_EMPRESA,Codigo_emp,1,M:1,Both,194,,0
+FTO_SAIDA,EmpObr,DIM_OBRAS,ID_EmpObr,1,M:1,Single,6,,0
+FTO_ENTRADA,EmpObr,DIM_OBRAS,ID_EmpObr,1,M:1,Single,3,,0
+FTO_CONTAS_A_PAGAR,EmpObr,DIM_OBRAS,ID_EmpObr,1,M:1,Single,6,,0

@@ -1,0 +1,22 @@
+FromTableName,FromColumnName,ToTableName,ToColumnName,IsActive,Cardinality,CrossFilteringBehavior,FromKeyCount,ToKeyCount,RelyOnReferentialIntegrity
+Contas a Pagar,Vencimento,,,1,M:1,Single,1679,,0
+dCalendário,DATA,,,1,M:1,Single,14977,,0
+dCalendário,DT REFERENCIA,,,1,M:1,Single,495,,0
+dCalendário,DT ATUALIZAÇÃO,,,1,M:1,Single,4,,0
+Contas a Pagar,Empresa,Empresas,Codigo_emp,1,M:1,Single,125,,0
+Contas Recebidas,Data Deposito,dCalendário,DATA,1,M:1,Single,2024,,0
+Contas a Pagar,Prorrogação,dCalendário,DATA,1,M:1,Single,1282,,0
+Contas Recebidas,empresa_rec,Empresas,Codigo_emp,1,M:1,Single,69,,0
+EmissaoPagamentos,DataVencimento,,,1,M:1,Single,1679,,0
+EmissaoPagamentos,DataDocumentoFiscal,,,1,M:1,Single,695,,0
+EmissaoPagamentos,CodEmpresa,Empresas,Codigo_emp,1,M:1,Single,125,,0
+EmissaoPagamentos,DataEmissao,,,1,M:1,Single,738,,0
+EmissaoPagamentos,DataD,,,1,M:1,Single,2339,,0
+EmissaoPagamentos,DataV,,,1,M:1,Single,4034,,0
+EmissaoPagamentos,DataQ,,,1,M:1,Single,4536,,0
+EmissaoPagamentos,DataSIM,,,1,M:1,Single,976,,0
+EmissaoPagamentos,DataEnvioBanco,,,1,M:1,Single,45,,0
+EmissaoPagamentos,DataConfirmacao,,,1,M:1,Single,266,,0
+EmissaoPagamentos,DataProrrogacao,dCalendário,DATA,1,M:1,Single,1282,,0
+EmissaoPagamentos,DataProcesso,,,1,M:1,Single,667,,0
+Empreendimento,field_12,Empresas,Codigo_emp,1,M:1,Both,76,,0

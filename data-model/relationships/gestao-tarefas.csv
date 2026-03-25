@@ -1,0 +1,6 @@
+FromTableName,FromColumnName,ToTableName,ToColumnName,IsActive,Cardinality,CrossFilteringBehavior,FromKeyCount,ToKeyCount,RelyOnReferentialIntegrity
+fTarefas,Mês,,,1,M:1,Single,5.0,,0
+fTarefas,Data início,,,1,M:1,Single,12.0,,0
+fTarefas,Data Conclusão Prevista,,,1,M:1,Single,15.0,,0
+fTarefas,Data Conclusão Real,,,1,M:1,Single,28.0,,0
+dColaboradores,Responsável,fTarefas,Responsável,1,M:M,Both,,,0

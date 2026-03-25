@@ -1,0 +1,98 @@
+TableName,ColumnName,Expression
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,Ano,YEAR([Date])
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,MonthNo,MONTH([Date])
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,Mês,"FORMAT([Date], ""MMMM"")"
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,QuarterNo,INT(([MonthNo] + 2) / 3)
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,Trimestre,"""Trim "" & [QuarterNo]"
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,Dia,DAY([Date])
+LocalDateTable_2e526964-956a-400a-837a-0f7211a9234a,Ano,YEAR([Date])
+LocalDateTable_2e526964-956a-400a-837a-0f7211a9234a,MonthNo,MONTH([Date])
+LocalDateTable_2e526964-956a-400a-837a-0f7211a9234a,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_2e526964-956a-400a-837a-0f7211a9234a,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_2e526964-956a-400a-837a-0f7211a9234a,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_2e526964-956a-400a-837a-0f7211a9234a,Dia,DAY([Date])
+LocalDateTable_da2c0fe6-e6b7-4169-8b50-777b5f6730d2,Ano,YEAR([Date])
+LocalDateTable_da2c0fe6-e6b7-4169-8b50-777b5f6730d2,MonthNo,MONTH([Date])
+LocalDateTable_da2c0fe6-e6b7-4169-8b50-777b5f6730d2,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_da2c0fe6-e6b7-4169-8b50-777b5f6730d2,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_da2c0fe6-e6b7-4169-8b50-777b5f6730d2,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_da2c0fe6-e6b7-4169-8b50-777b5f6730d2,Dia,DAY([Date])
+LocalDateTable_7b3769d0-cd22-4316-b163-3a821ad8acff,Ano,YEAR([Date])
+LocalDateTable_7b3769d0-cd22-4316-b163-3a821ad8acff,MonthNo,MONTH([Date])
+LocalDateTable_7b3769d0-cd22-4316-b163-3a821ad8acff,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_7b3769d0-cd22-4316-b163-3a821ad8acff,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_7b3769d0-cd22-4316-b163-3a821ad8acff,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_7b3769d0-cd22-4316-b163-3a821ad8acff,Dia,DAY([Date])
+LocalDateTable_aeb8b2b7-3b0f-485d-9aef-72c14ebe2cee,Ano,YEAR([Date])
+LocalDateTable_aeb8b2b7-3b0f-485d-9aef-72c14ebe2cee,MonthNo,MONTH([Date])
+LocalDateTable_aeb8b2b7-3b0f-485d-9aef-72c14ebe2cee,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_aeb8b2b7-3b0f-485d-9aef-72c14ebe2cee,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_aeb8b2b7-3b0f-485d-9aef-72c14ebe2cee,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_aeb8b2b7-3b0f-485d-9aef-72c14ebe2cee,Dia,DAY([Date])
+Empresas,CodEmpresa,"CONCATENATE(Empresas[Codigo_emp], CONCATENATE("" - "", Empresas[Desc_Emp]))"
+LocalDateTable_b04fc476-3873-448a-9a3c-b176e13e3577,Ano,YEAR([Date])
+LocalDateTable_b04fc476-3873-448a-9a3c-b176e13e3577,MonthNo,MONTH([Date])
+LocalDateTable_b04fc476-3873-448a-9a3c-b176e13e3577,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_b04fc476-3873-448a-9a3c-b176e13e3577,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_b04fc476-3873-448a-9a3c-b176e13e3577,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_b04fc476-3873-448a-9a3c-b176e13e3577,Dia,DAY([Date])
+LocalDateTable_d360cb7c-232a-4d88-a285-9561b47a4a43,Ano,YEAR([Date])
+LocalDateTable_d360cb7c-232a-4d88-a285-9561b47a4a43,MonthNo,MONTH([Date])
+LocalDateTable_d360cb7c-232a-4d88-a285-9561b47a4a43,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_d360cb7c-232a-4d88-a285-9561b47a4a43,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_d360cb7c-232a-4d88-a285-9561b47a4a43,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_d360cb7c-232a-4d88-a285-9561b47a4a43,Dia,DAY([Date])
+Empresas,Ponta,"IF (Empresas[TipoEmpresa] = ""SPE"" , LOOKUPVALUE(Empreendimento[Ponta], 'Empreendimento'[field_12], Empresas[Codigo_emp], ""SEM PONTA"") , ""BPO"")"
+Empresas,LiderRelacionamento,"IF (Empresas[TipoEmpresa] = ""SPE"" , LOOKUPVALUE(Empreendimento[LiderRelacionamento], 'Empreendimento'[field_12], Empresas[Codigo_emp], ""SEM LIDER DE RELACIONAMENTO""), ""BPO"")"
+Empresas,LiderEspecialista,"IF (Empresas[TipoEmpresa] = ""SPE"" , LOOKUPVALUE(Empreendimento[LiderEspecialista], 'Empreendimento'[field_12], Empresas[Codigo_emp], ""SEM LIDER DE ESPECIALISTA"") ,""BPO"")"
+EmissaoPagamentos,ObraEmpresa,"CONCATENATE(EmissaoPagamentos[CodObra], CONCATENATE("" - "", EmissaoPagamentos[CodEmpresa]))"
+LocalDateTable_ca87ad95-1a1e-46d0-8782-9f1c70865591,Ano,YEAR([Date])
+LocalDateTable_ca87ad95-1a1e-46d0-8782-9f1c70865591,MonthNo,MONTH([Date])
+LocalDateTable_ca87ad95-1a1e-46d0-8782-9f1c70865591,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_ca87ad95-1a1e-46d0-8782-9f1c70865591,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_ca87ad95-1a1e-46d0-8782-9f1c70865591,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_ca87ad95-1a1e-46d0-8782-9f1c70865591,Dia,DAY([Date])
+LocalDateTable_ef37a74d-2cfd-4273-b7cb-34e5f6a52611,Ano,YEAR([Date])
+LocalDateTable_ef37a74d-2cfd-4273-b7cb-34e5f6a52611,MonthNo,MONTH([Date])
+LocalDateTable_ef37a74d-2cfd-4273-b7cb-34e5f6a52611,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_ef37a74d-2cfd-4273-b7cb-34e5f6a52611,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_ef37a74d-2cfd-4273-b7cb-34e5f6a52611,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_ef37a74d-2cfd-4273-b7cb-34e5f6a52611,Dia,DAY([Date])
+LocalDateTable_aec32c98-e341-42fa-bdf2-b29e808882db,Ano,YEAR([Date])
+LocalDateTable_aec32c98-e341-42fa-bdf2-b29e808882db,MonthNo,MONTH([Date])
+LocalDateTable_aec32c98-e341-42fa-bdf2-b29e808882db,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_aec32c98-e341-42fa-bdf2-b29e808882db,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_aec32c98-e341-42fa-bdf2-b29e808882db,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_aec32c98-e341-42fa-bdf2-b29e808882db,Dia,DAY([Date])
+LocalDateTable_394c4293-49cc-4983-abd6-a0d0e4cd4fef,Ano,YEAR([Date])
+LocalDateTable_394c4293-49cc-4983-abd6-a0d0e4cd4fef,MonthNo,MONTH([Date])
+LocalDateTable_394c4293-49cc-4983-abd6-a0d0e4cd4fef,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_394c4293-49cc-4983-abd6-a0d0e4cd4fef,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_394c4293-49cc-4983-abd6-a0d0e4cd4fef,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_394c4293-49cc-4983-abd6-a0d0e4cd4fef,Dia,DAY([Date])
+LocalDateTable_7dd057a4-d346-4572-842e-49aa0956cfae,Ano,YEAR([Date])
+LocalDateTable_7dd057a4-d346-4572-842e-49aa0956cfae,MonthNo,MONTH([Date])
+LocalDateTable_7dd057a4-d346-4572-842e-49aa0956cfae,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_7dd057a4-d346-4572-842e-49aa0956cfae,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_7dd057a4-d346-4572-842e-49aa0956cfae,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_7dd057a4-d346-4572-842e-49aa0956cfae,Dia,DAY([Date])
+LocalDateTable_67d5a7cb-6d28-4f18-b83b-5f5b361d35ea,Ano,YEAR([Date])
+LocalDateTable_67d5a7cb-6d28-4f18-b83b-5f5b361d35ea,MonthNo,MONTH([Date])
+LocalDateTable_67d5a7cb-6d28-4f18-b83b-5f5b361d35ea,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_67d5a7cb-6d28-4f18-b83b-5f5b361d35ea,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_67d5a7cb-6d28-4f18-b83b-5f5b361d35ea,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_67d5a7cb-6d28-4f18-b83b-5f5b361d35ea,Dia,DAY([Date])
+LocalDateTable_535f0fed-d22e-4896-acb8-dff9ced0c749,Ano,YEAR([Date])
+LocalDateTable_535f0fed-d22e-4896-acb8-dff9ced0c749,MonthNo,MONTH([Date])
+LocalDateTable_535f0fed-d22e-4896-acb8-dff9ced0c749,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_535f0fed-d22e-4896-acb8-dff9ced0c749,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_535f0fed-d22e-4896-acb8-dff9ced0c749,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_535f0fed-d22e-4896-acb8-dff9ced0c749,Dia,DAY([Date])
+LocalDateTable_8e3a6b90-bd8e-4aa4-aff5-a35979123512,Ano,YEAR([Date])
+LocalDateTable_8e3a6b90-bd8e-4aa4-aff5-a35979123512,MonthNo,MONTH([Date])
+LocalDateTable_8e3a6b90-bd8e-4aa4-aff5-a35979123512,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_8e3a6b90-bd8e-4aa4-aff5-a35979123512,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_8e3a6b90-bd8e-4aa4-aff5-a35979123512,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_8e3a6b90-bd8e-4aa4-aff5-a35979123512,Dia,DAY([Date])
+EmissaoPagamentos,ConfirmDVQ,"IF( EmissaoPagamentos[DVQ] = ""DVQ"", 1, 0)"
+EmissaoPagamentos,NumProc_Fornecedor,"CONCATENATE(EmissaoPagamentos[NumProc], CONCATENATE("" - "", EmissaoPagamentos[NomeFornecedor]))"

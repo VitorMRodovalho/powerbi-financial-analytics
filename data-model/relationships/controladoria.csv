@@ -1,0 +1,74 @@
+FromTableName,FromColumnName,ToTableName,ToColumnName,IsActive,Cardinality,CrossFilteringBehavior,FromKeyCount,ToKeyCount,RelyOnReferentialIntegrity
+Fora do Prazo,Data do Processo,,,1,M:1,Single,838,,0
+Contas a Pagar,Vencimento,,,1,M:1,Single,1679,,0
+Fracao Ideal,DataCad_unid,,,1,M:1,Single,248,,0
+Fracao Ideal,DataEntregaChaves_unid,,,1,M:1,Single,9,,0
+dCalendário,DATA,,,1,M:1,Single,14977,,0
+dCalendário,DT REFERENCIA,,,1,M:1,Single,495,,0
+dCalendário,DT ATUALIZAÇÃO,,,1,M:1,Single,4,,0
+Contas a Pagar,Empresa,Empresas,Codigo_emp,1,M:1,Single,125,,0
+Fracao Ideal,Empresa_unid,Empresas,Codigo_emp,1,M:1,Single,74,,0
+Saldos Gerenciais,Empresa_sdcc,Empresas,Codigo_emp,1,M:1,Single,102,,0
+Fora do Prazo,Empresa_pag,Empresas,Codigo_emp,1,M:1,Single,130,,0
+Juros e Multas,empresa_pag,Empresas,Codigo_emp,1,M:1,Single,123,,0
+Saldos Gerenciais,Data_sdcc,dCalendário,DATA,1,M:1,Single,2579,,0
+Contas Recebidas,Data Deposito,dCalendário,DATA,1,M:1,Single,2024,,0
+Contas a Pagar,Prorrogação,dCalendário,DATA,1,M:1,Single,1282,,0
+Juros e Multas,dataemissao_pag,dCalendário,DATA,1,M:1,Single,965,,0
+Juros e Multas,DataVencParc_Pag,,,1,M:1,Single,1255,,0
+Contas Recebidas,empresa_rec,Empresas,Codigo_emp,1,M:1,Single,69,,0
+Processos de Pagamento,DataDocFiscal,,,1,M:1,Single,1760,,0
+Processos de Pagamento,DataAprovData,,,1,M:1,Single,1760,,0
+Processos de Pagamento,DataConfValor,,,1,M:1,Single,1799,,0
+Processos de Pagamento,DataConfQuantidade,,,1,M:1,Single,1838,,0
+Processos de Pagamento,DataConfirmacaoPgto,,,1,M:1,Single,1272,,0
+Processos de Pagamento,DataVencimento,,,1,M:1,Single,3562,,0
+Processos de Pagamento,Empresa_proc,Empresas,Codigo_emp,1,M:1,Single,149,,0
+Processos de Pagamento,DataCadastro,dCalendário,DATA,1,M:1,Single,1881,,0
+Processos de Pagamento,DataPagamento,,,1,M:1,Single,2772,,0
+Processos de Pagamento,User_Proc,Usuários,Login_usr,1,M:1,Single,457,,0
+Fora do Prazo,User_Pag,Usuários,Login_usr,1,M:1,Single,377,,0
+Fechamento Contábil,DataAlteracao,,,1,M:1,Single,2709,,0
+Fechamento Contábil,DataHoraConsulta,,,1,M:1,Single,4,,0
+Fechamento Financeiro,DataAlt_hff,,,1,M:1,Single,1554,,0
+Fechamento Financeiro,DataEncerramentoAtividade_hff,,,1,M:1,Single,4,,0
+Fechamento Financeiro,Data_hff,,,1,M:1,Single,212,,0
+Fechamento Financeiro,DataFechamento,dCalendário,DATA,1,M:1,Single,212,,0
+Fechamento Financeiro,DataAlteracao,,,1,M:1,Single,150,,0
+Fora do Prazo,DataVencParc_Pag,,,1,M:1,Single,846,,0
+Fora do Prazo,DataPag_pag,,,1,M:1,Single,474,,0
+Fora do Prazo,DataMinCorretaPagamento,,,1,M:1,Single,867,,0
+Fora do Prazo,DtDocFisc_Pag,dCalendário,DATA,1,M:1,Single,837,,0
+Fora do Prazo,DataEmissao_Pag,,,1,M:1,Single,393,,0
+Fechamento Contábil,DataFechamento,dCalendário,DATA,1,M:1,Single,15,,0
+Teste,,,,1,M:1,Single,196,,0
+Extrato Auditoria,DataCadastro,,,1,M:1,Single,4536,,0
+Extrato Auditoria,DtValidacao,,,1,M:1,Single,22,,0
+Extrato Auditoria,Empresa,Empresas,Codigo_emp,1,M:1,Single,90,,0
+Extrato Auditoria,DataExtrato,dCalendário,DATA,1,M:1,Single,606,,0
+Extrato Auditoria,DataLancamento,,,1,M:1,Single,624,,0
+EmissaoPagamentos,DataVencimento,,,1,M:1,Single,119,,0
+EmissaoPagamentos,DataProrrogacao,,,1,M:1,Single,69,,0
+EmissaoPagamentos,DataConfDt_Proc,,,1,M:1,Single,619,,0
+EmissaoPagamentos,DataConfVl_Proc,,,1,M:1,Single,588,,0
+EmissaoPagamentos,DataConfQdade_Proc,,,1,M:1,Single,687,,0
+EmissaoPagamentos,DataEnvio,,,1,M:1,Single,25,,0
+EmissaoPagamentos,DataAprovEmissao_proc,,,1,M:1,Single,499,,0
+EmissaoPagamentos,DataProcesso,dCalendário,DATA,1,M:1,Single,137,,0
+EmissaoPagamentos,DataDocumentoFiscal,,,1,M:1,Single,141,,0
+EmissaoPagamentos,CodEmpresa,Empresas,Codigo_emp,1,M:1,Single,61,,0
+Empreendimento,field_12,Empresas,CodEmpresa,1,M:1,Both,76,,0
+Mapa,Empresa_mpprj,Empresas,Codigo_emp,1,M:1,Single,95,,0
+Mapa,DataMin,,,1,M:1,Single,24,,0
+Mapa,usrcad_moa,Usuários,Login_usr,1,M:1,Single,39,,0
+Mapa,DataMax,,,1,M:1,Single,9,,0
+Mapa,datasaldo_moa,dCalendário,DATA,1,M:1,Single,52,,0
+Mapa,datacad_moa,,,1,M:1,Single,317,,0
+Status Fechamento Contábil,,dCalendário,DATA,1,M:1,Single,15,,0
+Status Fechamento Contábil,,,,1,M:1,Single,421,,0
+Status Fechamento Financeiro,,dCalendário,DATA,1,M:1,Single,212,,0
+Status Fechamento Financeiro,,,,1,M:1,Single,997,,0
+Fechamento Contábil,CodEmpresa,Empresas,Codigo_emp,1,M:1,Single,248,,0
+Fechamento Financeiro,Empresa_hff,Empresas,Codigo_emp,1,M:1,Single,121,,0
+Status Fechamento Contábil,,Empresas,Codigo_emp,1,M:1,Single,248,,0
+Status Fechamento Financeiro,,Empresas,Codigo_emp,1,M:1,Single,121,,0

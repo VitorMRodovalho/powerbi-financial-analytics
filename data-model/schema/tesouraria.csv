@@ -1,0 +1,311 @@
+TableName,ColumnName,PandasDataType
+Contas Recebidas,EmpObr,string
+Contas Recebidas,GRUPO,string
+Contas Recebidas,Tipo,string
+Contas Recebidas,Cliente,Int64
+Contas Recebidas,Nome,string
+Contas Recebidas,Venda,Int64
+Contas Recebidas,TipoParc,string
+Contas Recebidas,Num Parc,Int64
+Contas Recebidas,Valor Dep,Float64
+Contas Recebidas,Data Deposito,datetime64[ns]
+Contas Recebidas,InsumoPL_des,Int64
+Contas Recebidas,Categoria_Pr,string
+Contas Recebidas,empresa_rec,Int64
+Contas Recebidas,obra_rec,string
+Contas Recebidas,cap_rec,string
+Contas Recebidas,bancodep_rpg,Int64
+Contas Recebidas,contadep_rpg,string
+Contas Recebidas,categmovfin_dep,string
+Contas a Pagar,IDPagar,string
+Contas a Pagar,EmpObr,string
+Contas a Pagar,Empresa,Int64
+Contas a Pagar,Nome Empresa,string
+Contas a Pagar,Obra,string
+Contas a Pagar,Nome Obra,string
+Contas a Pagar,Processo,Int64
+Contas a Pagar,Parcela,Int64
+Contas a Pagar,Vencimento,datetime64[ns]
+Contas a Pagar,Prorrogação,datetime64[ns]
+Contas a Pagar,Nominal,string
+Contas a Pagar,ValPagar,Float64
+Contas a Pagar,Número Doc,string
+Contas a Pagar,Valor Doc,Float64
+Contas a Pagar,CodForn_Proc,Int64
+Contas a Pagar,CategMovFin_Proc,string
+Contas a Pagar,CodInsProc_Item,string
+Contas a Pagar,TipoDoc_Proc,Int64
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,Ano,object
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,MonthNo,object
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,Mês,object
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,QuarterNo,object
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,Trimestre,object
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,Dia,object
+EmissaoPagamentos,CodEmpresa,Int64
+EmissaoPagamentos,CodObra,string
+EmissaoPagamentos,NumProc,Int64
+EmissaoPagamentos,NumCot,Int64
+EmissaoPagamentos,OrdemCompra,Int64
+EmissaoPagamentos,Contrato,Int64
+EmissaoPagamentos,CodigoMedicao,Int64
+EmissaoPagamentos,RiscoSacado,string
+EmissaoPagamentos,Usuario,string
+EmissaoPagamentos,CodFornecedor,Int64
+EmissaoPagamentos,DataProcesso,datetime64[ns]
+EmissaoPagamentos,TipoDoc_Proc,Int64
+EmissaoPagamentos,TipoOrigem,string
+EmissaoPagamentos,IntExt_Proc,string
+EmissaoPagamentos,Contato_Proc,string
+EmissaoPagamentos,EmpPaga_Proc,Int64
+EmissaoPagamentos,EmpFatura_Proc,Int64
+EmissaoPagamentos,CategProc_proc,string
+EmissaoPagamentos,Anexos_proc,Int64
+EmissaoPagamentos,NumEnt_Proc,Int64
+EmissaoPagamentos,NomeBanco,string
+EmissaoPagamentos,DescriCCorrente,string
+EmissaoPagamentos,NomeFornecedor,string
+EmissaoPagamentos,CnpjCpf,string
+EmissaoPagamentos,NomeFantFornecedor,string
+EmissaoPagamentos,TipoJuro_ProcPar,Int64
+EmissaoPagamentos,Num_nfe,Int64
+EmissaoPagamentos,Descr_csf,string
+EmissaoPagamentos,CodigoCsrf_csf,string
+EmissaoPagamentos,EmpresaProcPaiReemb_ProcPar,Int64
+EmissaoPagamentos,Codigo_cger,string
+EmissaoPagamentos,Desc_cger,string
+EmissaoPagamentos,Empresa_proc,Int64
+EmissaoPagamentos,Obra_Proc,string
+EmissaoPagamentos,Num_Proc,Int64
+EmissaoPagamentos,NumParc_Proc,Int64
+EmissaoPagamentos,DataVencimento,datetime64[ns]
+EmissaoPagamentos,DataProrrogacao,datetime64[ns]
+EmissaoPagamentos,ValorProcesso,Float64
+EmissaoPagamentos,ProvParc_Proc,Int64
+EmissaoPagamentos,StatusAprovProcesso,string
+EmissaoPagamentos,VlDocFisc_Proc,Float64
+EmissaoPagamentos,PrioParc_Proc,Int64
+EmissaoPagamentos,ConfEmissao_Proc,Int64
+EmissaoPagamentos,TipoChq_Proc,string
+EmissaoPagamentos,ChqNome_Proc,string
+EmissaoPagamentos,AcrescParc_Proc,Float64
+EmissaoPagamentos,descParc_Proc,Float64
+EmissaoPagamentos,DocEntreg_Proc,Int64
+EmissaoPagamentos,CodigoBarra_Proc,string
+EmissaoPagamentos,StatusBoleto_Proc,Int64
+EmissaoPagamentos,TiposPagamentoEletronico,string
+EmissaoPagamentos,DataDocumentoFiscal,datetime64[ns]
+EmissaoPagamentos,CategMovFin_Proc,string
+EmissaoPagamentos,ValPagar,Float64
+EmissaoPagamentos,DifProrrogacaoHoje,Int64
+EmissaoPagamentos,ClusterProcesso,string
+EmissaoPagamentos,StatusPagamento,string
+EmissaoPagamentos,tipopagParc_proc,string
+EmissaoPagamentos,StatusParc_proc,Int64
+EmissaoPagamentos,EnvioBanco,string
+EmissaoPagamentos,ObraEmpresa,object
+EmissaoPagamentos,StatusPgto,string
+EmissaoPagamentos,StatusPagamento2,string
+EmissaoPagamentos,DataEmissao,datetime64[ns]
+EmissaoPagamentos,D,string
+EmissaoPagamentos,V,string
+EmissaoPagamentos,Q,string
+EmissaoPagamentos,CONFERIDO,string
+EmissaoPagamentos,SIM,string
+EmissaoPagamentos,DataD,datetime64[ns]
+EmissaoPagamentos,UserD,string
+EmissaoPagamentos,DataV,datetime64[ns]
+EmissaoPagamentos,UserV,string
+EmissaoPagamentos,DataQ,datetime64[ns]
+EmissaoPagamentos,UserQ,string
+EmissaoPagamentos,DataSIM,datetime64[ns]
+EmissaoPagamentos,UserSIM,string
+EmissaoPagamentos,UserEnvio,string
+EmissaoPagamentos,DataEnvioBanco,datetime64[ns]
+EmissaoPagamentos,UserCadNF,string
+EmissaoPagamentos,UserConferido,string
+EmissaoPagamentos,DataConfirmacao,datetime64[ns]
+EmissaoPagamentos,DocFiscal_Proc,string
+EmissaoPagamentos,DVQ,string
+EmissaoPagamentos,ConfirmDVQ,object
+EmissaoPagamentos,NumProc_Fornecedor,object
+Empreendimento,FileSystemObjectType,string
+Empreendimento,Id,string
+Empreendimento,ServerRedirectedEmbedUri,string
+Empreendimento,ServerRedirectedEmbedUrl,string
+Empreendimento,ERPId,string
+Empreendimento,Data de Integraliza_,string
+Empreendimento,Lançamento,string
+Empreendimento,Estado,string
+Empreendimento,Cidade,string
+Empreendimento,Title,string
+Empreendimento,Status,string
+Empreendimento,ParceiroId,string
+Empreendimento,Tipologia,string
+Empreendimento,VGV Expectativa,string
+Empreendimento,Público Alvo,string
+Empreendimento,Observação,string
+Empreendimento,Sigla,string
+Empreendimento,PontaId,string
+Empreendimento,PontaStringId,string
+Empreendimento,GuardiãodaTIR.Id,string
+Empreendimento,GuardiãodaTIR.StringId,string
+Empreendimento,LíderEspecialistaId,string
+Empreendimento,LíderEspecialistaStringId,string
+Empreendimento,Qual % de_x002,string
+Empreendimento,CódigoRealEstateCo,string
+Empreendimento,Sharepoint do Empree,string
+Empreendimento,TaxKeyword,string
+Empreendimento,Fundo 2Id,string
+Empreendimento,Holding Nível Id,string
+Empreendimento,SPE'sId,string
+Empreendimento,Holding Nível 0Id,string
+Empreendimento,Holding Nível 1Id,string
+Empreendimento,OBRAS UAU,string
+Empreendimento,ContentTypeId,string
+Empreendimento,ComplianceAssetId,string
+Empreendimento,Created,string
+Empreendimento,AuthorId,string
+Empreendimento,EditorId,string
+Empreendimento,ID.1,string
+Empreendimento,Modified,string
+Empreendimento,OData__UIVersionString,string
+Empreendimento,Attachments,string
+Empreendimento,GUID,string
+Empreendimento,LiderRelacionamento,string
+Empreendimento,Ponta,string
+Empreendimento,field_12,Float64
+Empreendimento,File.1,string
+Empreendimento,ParentList.1,string
+Empreendimento,Title.1,string
+Empreendimento,Empresa,string
+Empreendimento,ERP.1,string
+Empreendimento,TipodeGovenança,string
+Empreendimento,FasedeOperação,string
+Empresas,Codigo_emp,Float64
+Empresas,Desc_Emp,string
+Empresas,CodGrupo_emp,string
+Empresas,TipoEmpresa,string
+Empresas,GrupoEconomico,string
+Empresas,NomeFant_pes,string
+Empresas,NOME,string
+Empresas,CodEmpresa,object
+Empresas,Ponta,object
+Empresas,LiderRelacionamento,object
+Empresas,LiderEspecialista,object
+LocalDateTable_2e526964-956a-400a-837a-0f7211a9234a,Ano,object
+LocalDateTable_2e526964-956a-400a-837a-0f7211a9234a,MonthNo,object
+LocalDateTable_2e526964-956a-400a-837a-0f7211a9234a,Mês,object
+LocalDateTable_2e526964-956a-400a-837a-0f7211a9234a,QuarterNo,object
+LocalDateTable_2e526964-956a-400a-837a-0f7211a9234a,Trimestre,object
+LocalDateTable_2e526964-956a-400a-837a-0f7211a9234a,Dia,object
+LocalDateTable_394c4293-49cc-4983-abd6-a0d0e4cd4fef,Ano,object
+LocalDateTable_394c4293-49cc-4983-abd6-a0d0e4cd4fef,MonthNo,object
+LocalDateTable_394c4293-49cc-4983-abd6-a0d0e4cd4fef,Mês,object
+LocalDateTable_394c4293-49cc-4983-abd6-a0d0e4cd4fef,QuarterNo,object
+LocalDateTable_394c4293-49cc-4983-abd6-a0d0e4cd4fef,Trimestre,object
+LocalDateTable_394c4293-49cc-4983-abd6-a0d0e4cd4fef,Dia,object
+LocalDateTable_535f0fed-d22e-4896-acb8-dff9ced0c749,Ano,object
+LocalDateTable_535f0fed-d22e-4896-acb8-dff9ced0c749,MonthNo,object
+LocalDateTable_535f0fed-d22e-4896-acb8-dff9ced0c749,Mês,object
+LocalDateTable_535f0fed-d22e-4896-acb8-dff9ced0c749,QuarterNo,object
+LocalDateTable_535f0fed-d22e-4896-acb8-dff9ced0c749,Trimestre,object
+LocalDateTable_535f0fed-d22e-4896-acb8-dff9ced0c749,Dia,object
+LocalDateTable_67d5a7cb-6d28-4f18-b83b-5f5b361d35ea,Ano,object
+LocalDateTable_67d5a7cb-6d28-4f18-b83b-5f5b361d35ea,MonthNo,object
+LocalDateTable_67d5a7cb-6d28-4f18-b83b-5f5b361d35ea,Mês,object
+LocalDateTable_67d5a7cb-6d28-4f18-b83b-5f5b361d35ea,QuarterNo,object
+LocalDateTable_67d5a7cb-6d28-4f18-b83b-5f5b361d35ea,Trimestre,object
+LocalDateTable_67d5a7cb-6d28-4f18-b83b-5f5b361d35ea,Dia,object
+LocalDateTable_7b3769d0-cd22-4316-b163-3a821ad8acff,Ano,object
+LocalDateTable_7b3769d0-cd22-4316-b163-3a821ad8acff,MonthNo,object
+LocalDateTable_7b3769d0-cd22-4316-b163-3a821ad8acff,Mês,object
+LocalDateTable_7b3769d0-cd22-4316-b163-3a821ad8acff,QuarterNo,object
+LocalDateTable_7b3769d0-cd22-4316-b163-3a821ad8acff,Trimestre,object
+LocalDateTable_7b3769d0-cd22-4316-b163-3a821ad8acff,Dia,object
+LocalDateTable_7dd057a4-d346-4572-842e-49aa0956cfae,Ano,object
+LocalDateTable_7dd057a4-d346-4572-842e-49aa0956cfae,MonthNo,object
+LocalDateTable_7dd057a4-d346-4572-842e-49aa0956cfae,Mês,object
+LocalDateTable_7dd057a4-d346-4572-842e-49aa0956cfae,QuarterNo,object
+LocalDateTable_7dd057a4-d346-4572-842e-49aa0956cfae,Trimestre,object
+LocalDateTable_7dd057a4-d346-4572-842e-49aa0956cfae,Dia,object
+LocalDateTable_8e3a6b90-bd8e-4aa4-aff5-a35979123512,Ano,object
+LocalDateTable_8e3a6b90-bd8e-4aa4-aff5-a35979123512,MonthNo,object
+LocalDateTable_8e3a6b90-bd8e-4aa4-aff5-a35979123512,Mês,object
+LocalDateTable_8e3a6b90-bd8e-4aa4-aff5-a35979123512,QuarterNo,object
+LocalDateTable_8e3a6b90-bd8e-4aa4-aff5-a35979123512,Trimestre,object
+LocalDateTable_8e3a6b90-bd8e-4aa4-aff5-a35979123512,Dia,object
+LocalDateTable_aeb8b2b7-3b0f-485d-9aef-72c14ebe2cee,Ano,object
+LocalDateTable_aeb8b2b7-3b0f-485d-9aef-72c14ebe2cee,MonthNo,object
+LocalDateTable_aeb8b2b7-3b0f-485d-9aef-72c14ebe2cee,Mês,object
+LocalDateTable_aeb8b2b7-3b0f-485d-9aef-72c14ebe2cee,QuarterNo,object
+LocalDateTable_aeb8b2b7-3b0f-485d-9aef-72c14ebe2cee,Trimestre,object
+LocalDateTable_aeb8b2b7-3b0f-485d-9aef-72c14ebe2cee,Dia,object
+LocalDateTable_aec32c98-e341-42fa-bdf2-b29e808882db,Ano,object
+LocalDateTable_aec32c98-e341-42fa-bdf2-b29e808882db,MonthNo,object
+LocalDateTable_aec32c98-e341-42fa-bdf2-b29e808882db,Mês,object
+LocalDateTable_aec32c98-e341-42fa-bdf2-b29e808882db,QuarterNo,object
+LocalDateTable_aec32c98-e341-42fa-bdf2-b29e808882db,Trimestre,object
+LocalDateTable_aec32c98-e341-42fa-bdf2-b29e808882db,Dia,object
+LocalDateTable_b04fc476-3873-448a-9a3c-b176e13e3577,Ano,object
+LocalDateTable_b04fc476-3873-448a-9a3c-b176e13e3577,MonthNo,object
+LocalDateTable_b04fc476-3873-448a-9a3c-b176e13e3577,Mês,object
+LocalDateTable_b04fc476-3873-448a-9a3c-b176e13e3577,QuarterNo,object
+LocalDateTable_b04fc476-3873-448a-9a3c-b176e13e3577,Trimestre,object
+LocalDateTable_b04fc476-3873-448a-9a3c-b176e13e3577,Dia,object
+LocalDateTable_ca87ad95-1a1e-46d0-8782-9f1c70865591,Ano,object
+LocalDateTable_ca87ad95-1a1e-46d0-8782-9f1c70865591,MonthNo,object
+LocalDateTable_ca87ad95-1a1e-46d0-8782-9f1c70865591,Mês,object
+LocalDateTable_ca87ad95-1a1e-46d0-8782-9f1c70865591,QuarterNo,object
+LocalDateTable_ca87ad95-1a1e-46d0-8782-9f1c70865591,Trimestre,object
+LocalDateTable_ca87ad95-1a1e-46d0-8782-9f1c70865591,Dia,object
+LocalDateTable_d360cb7c-232a-4d88-a285-9561b47a4a43,Ano,object
+LocalDateTable_d360cb7c-232a-4d88-a285-9561b47a4a43,MonthNo,object
+LocalDateTable_d360cb7c-232a-4d88-a285-9561b47a4a43,Mês,object
+LocalDateTable_d360cb7c-232a-4d88-a285-9561b47a4a43,QuarterNo,object
+LocalDateTable_d360cb7c-232a-4d88-a285-9561b47a4a43,Trimestre,object
+LocalDateTable_d360cb7c-232a-4d88-a285-9561b47a4a43,Dia,object
+LocalDateTable_da2c0fe6-e6b7-4169-8b50-777b5f6730d2,Ano,object
+LocalDateTable_da2c0fe6-e6b7-4169-8b50-777b5f6730d2,MonthNo,object
+LocalDateTable_da2c0fe6-e6b7-4169-8b50-777b5f6730d2,Mês,object
+LocalDateTable_da2c0fe6-e6b7-4169-8b50-777b5f6730d2,QuarterNo,object
+LocalDateTable_da2c0fe6-e6b7-4169-8b50-777b5f6730d2,Trimestre,object
+LocalDateTable_da2c0fe6-e6b7-4169-8b50-777b5f6730d2,Dia,object
+LocalDateTable_ef37a74d-2cfd-4273-b7cb-34e5f6a52611,Ano,object
+LocalDateTable_ef37a74d-2cfd-4273-b7cb-34e5f6a52611,MonthNo,object
+LocalDateTable_ef37a74d-2cfd-4273-b7cb-34e5f6a52611,Mês,object
+LocalDateTable_ef37a74d-2cfd-4273-b7cb-34e5f6a52611,QuarterNo,object
+LocalDateTable_ef37a74d-2cfd-4273-b7cb-34e5f6a52611,Trimestre,object
+LocalDateTable_ef37a74d-2cfd-4273-b7cb-34e5f6a52611,Dia,object
+dCalendário,DATA,datetime64[ns]
+dCalendário,ANO,Int64
+dCalendário,MES,Int64
+dCalendário,DT REFERENCIA,datetime64[ns]
+dCalendário,TRIMESTRE,Int64
+dCalendário,SEMANA DO ANO,Int64
+dCalendário,SEMANA DO MES,Int64
+dCalendário,DIA DO MES,Int64
+dCalendário,DIA DA SEMANA,Int64
+dCalendário,DIA DO ANO,Int64
+dCalendário,NOME DO DIA,string
+dCalendário,NOME MES,string
+dCalendário,WEEK OF YEAR,string
+dCalendário,NOME TRIMESTRE,string
+dCalendário,NOME MES ABREV,string
+dCalendário,NOME MES/ANO ABREV,string
+dCalendário,MES/ANO,string
+dCalendário,NOME DO DIA ABREV,string
+dCalendário,SEMESTRE,Float64
+dCalendário,DIA ÚTIL,Float64
+dCalendário,NOME SEMESTRE,string
+dCalendário,NAME QUARTER,string
+dCalendário,MONTH NAME,string
+dCalendário,MONTH NAME ABREV,string
+dCalendário,ANO (YY),string
+dCalendário,MONTH/YEAR,string
+dCalendário,HOJE,Int64
+dCalendário,MES ATUAL,Int64
+dCalendário,SEMANA ATUAL,Int64
+dCalendário,DIA D,Int64
+dCalendário,DIA D-1,Int64
+dCalendário,DT ATUALIZAÇÃO,datetime64[ns]
+dCalendário,TRIMESTRE / ANO,string
